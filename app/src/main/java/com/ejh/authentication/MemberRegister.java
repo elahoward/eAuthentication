@@ -3,9 +3,12 @@ package com.ejh.authentication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 public class MemberRegister extends AppCompatActivity {
-
+    EditText regEmail;
+    Button buttonreg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
